@@ -88,7 +88,7 @@ with app:
     with gr.Row():
         user_input = gr.Textbox(
             show_label=False,
-            placeholder="Ketik idemu di sini dan tekan Enter...",
+            placeholder="Ketik idemu di sini dan tekan Enter untuk mengirim...",
             scale=4
         )
         send_button = gr.Button("Kirim", variant="primary", scale=1)
